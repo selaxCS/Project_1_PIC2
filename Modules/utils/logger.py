@@ -28,9 +28,9 @@ class CustomLogger:
             console_h.setLevel(logging.DEBUG)
             console_h.setFormatter(formatter)
 
-            # File handler (INFO and higher)
+            # File handler 
             file_h = logging.FileHandler(LOG_FILE, mode='a', encoding='utf-8')
-            file_h.setLevel(logging.INFO)
+            file_h.setLevel(logging.DEBUG)
             file_h.setFormatter(formatter)
 
             self.logger.addHandler(console_h)
