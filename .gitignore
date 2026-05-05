@@ -1,0 +1,16 @@
+# Environments
+.env
+.envrc
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+
+**/iot_sim.log
+logs
+iot_sim.log
+*.log
+iot_data.csv*
