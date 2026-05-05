@@ -14,3 +14,5 @@ logs
 iot_sim.log
 *.log
 iot_data.csv*
+
+**__pycache__/
